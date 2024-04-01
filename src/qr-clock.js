@@ -4,6 +4,11 @@ import { useInterval } from './hooks/set-interval'
 import moment from 'moment'
 import withSizes from 'react-sizes'
 import DeviceBrightness from 'react-native-device-brightness'
+const brightness = require('brightness');
+
+brightness.set(1).then(() => {
+	console.log('Changed brightness to 100%');
+});
 
 const getTime = () => moment().toISOString()
 
