@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e1cea185-fd3e-4dd0-a8ef-c3e8dd7a792b/deploy-status)](https://app.netlify.com/sites/qr-clock/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/94f30bc0-8590-471e-8d51-992ce9b5b1c9/deploy-status)](https://app.netlify.com/sites/isoclock-qr/deploys)
 
 # QR-Clock :clock1:
 
