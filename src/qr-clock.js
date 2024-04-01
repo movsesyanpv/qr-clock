@@ -3,8 +3,12 @@ import QRCode from 'qrcode.react'
 import { useInterval } from './hooks/set-interval'
 import moment from 'moment'
 import withSizes from 'react-sizes'
+import DeviceBrightness from 'react-native-device-brightness'
 
 const getTime = () => moment().toISOString()
+
+// Setting brightness
+DeviceBrightness.setBrightnessLevel(brightness)
 
 const QRClock = ({ width, height }) => {
   let [time, setTime] = useState(getTime())
