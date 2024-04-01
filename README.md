@@ -2,6 +2,6 @@
 
 # QR-Clock :clock1:
 
-This useless repo aims to displays a clock with QR codes.
+This useless repo aims to displays a clock with QR codes in ISO format.
 
 > Every moment is unique, isn't it?
