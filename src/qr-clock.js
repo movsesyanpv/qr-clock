@@ -32,7 +32,7 @@ const QRClock = ({ width, height }) => {
       //   color="orange"
       // >Fork original on GitHub</GitHubForkRibbon>
     //</div>
-  )
+  //)
 }
 
 export default withSizes(sizes => sizes)(QRClock)
