@@ -25,14 +25,8 @@ const QRClock = ({ width, height }) => {
           fgColor={ '#FFF' }
         />
       </div>
-      // <GitHubForkRibbon
-      //   href="https://github.com/kaelhem/qr-clock"
-      //   target="_blank"
-      //   position="right"
-      //   color="orange"
-      // >Fork original on GitHub</GitHubForkRibbon>
-    //</div>
-  //)
+    </div>
+  )
 }
 
 export default withSizes(sizes => sizes)(QRClock)
