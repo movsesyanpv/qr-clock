@@ -15,7 +15,7 @@ const QRClock = ({ width, height }) => {
   }, 100)
   return (
     <div className='main-container'>
-      <div style={{ color: '#fff', height: 50 }}>{ ${time}` }</div>
+      <div style={{ color: '#fff', height: 50 }}>{ `${time}` }</div>
       <div className='clock-container'>
         <QRCode
           value={ time }
