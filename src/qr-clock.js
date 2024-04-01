@@ -15,7 +15,7 @@ const QRClock = ({ width, height }) => {
   }, 100)
   return (
     <div className='main-container'>
-      <div style={{ color: '#ccc', height: 25 }}>{ `Fork of QR-Clock by kaelhem ©2019 - ${time}` }</div>
+      <div style={{ color: '#fff', height: 50 }}>{ ${time}` }</div>
       <div className='clock-container'>
         <QRCode
           value={ time }
@@ -25,12 +25,12 @@ const QRClock = ({ width, height }) => {
           fgColor={ '#FFF' }
         />
       </div>
-      <GitHubForkRibbon
-        href="https://github.com/kaelhem/qr-clock"
-        target="_blank"
-        position="right"
-        color="orange"
-      >Fork original on GitHub</GitHubForkRibbon>
+      // <GitHubForkRibbon
+      //   href="https://github.com/kaelhem/qr-clock"
+      //   target="_blank"
+      //   position="right"
+      //   color="orange"
+      // >Fork original on GitHub</GitHubForkRibbon>
     </div>
   )
 }
