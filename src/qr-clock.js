@@ -3,7 +3,6 @@ import QRCode from 'qrcode.react'
 import { useInterval } from './hooks/set-interval'
 import moment from 'moment'
 import withSizes from 'react-sizes'
-import GitHubForkRibbon from 'react-github-fork-ribbon'
 
 const getTime = () => moment().toISOString()
 
