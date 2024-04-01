@@ -5,23 +5,23 @@ import moment from 'moment'
 import withSizes from 'react-sizes'
 import GitHubForkRibbon from 'react-github-fork-ribbon'
 
-const getTime = () => moment().format("dddd, MMMM Do YYYY, h:mm:ss a")
+const getTime = () => moment().toISOString()
 
 const QRClock = ({ width, height }) => {
   let [time, setTime] = useState(getTime())
 
   useInterval(() => {
     setTime(getTime())
-  }, 1000)
+  }, 100)
   return (
     <div className='main-container'>
-      <div style={{ color: '#ccc', height: 25 }}>{ `QR-Clock by kaelhem ©2019 - ${time}` }</div>
+      <div style={{ color: '#ccc', height: 25 }}>{ `Fork of QR-Clock by kaelhem ©2019 - ${time}` }</div>
       <div className='clock-container'>
         <QRCode
           value={ time }
           renderAs='svg'
           size={ Math.min(width, height) - 50 }
-          bgColor={ '#26b777' }
+          bgColor={ '#000' }
           fgColor={ '#FFF' }
         />
       </div>
@@ -30,7 +30,7 @@ const QRClock = ({ width, height }) => {
         target="_blank"
         position="right"
         color="orange"
-      >Fork me on GitHub</GitHubForkRibbon>
+      >Fork original on GitHub</GitHubForkRibbon>
     </div>
   )
 }
