@@ -8,7 +8,7 @@ import DeviceBrightness from 'react-native-device-brightness'
 const getTime = () => moment().toISOString()
 
 // Setting brightness
-DeviceBrightness.setBrightnessLevel(brightness)
+DeviceBrightness.setBrightnessLevel(1)
 
 const QRClock = ({ width, height }) => {
   let [time, setTime] = useState(getTime())
