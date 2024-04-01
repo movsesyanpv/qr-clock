@@ -31,7 +31,7 @@ const QRClock = ({ width, height }) => {
       //   position="right"
       //   color="orange"
       // >Fork original on GitHub</GitHubForkRibbon>
-    </div>
+    //</div>
   )
 }
 
