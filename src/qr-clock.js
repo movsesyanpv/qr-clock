@@ -3,11 +3,6 @@ import QRCode from 'qrcode.react'
 import { useInterval } from './hooks/set-interval'
 import moment from 'moment'
 import withSizes from 'react-sizes'
-const brightness = require('brightness');
-
-brightness.set(1).then(() => {
-	console.log('Changed brightness to 100%');
-});
 
 const getTime = () => moment().toISOString()
 
