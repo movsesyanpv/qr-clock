@@ -9,8 +9,7 @@
     "react-dom": "^16.9.0",
     "react-github-fork-ribbon": "^0.6.0",
     "react-scripts": "5.0.1",
-    "react-sizes": "^2.0.0",
-    "brightness": "3.0.0"
+    "react-sizes": "^2.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -32,10 +31,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "browser": {
-  "fs": false,
-  "path": false,
-  "os": false
   }
 }
