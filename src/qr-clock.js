@@ -14,14 +14,14 @@ const QRClock = ({ width, height }) => {
   }, 100)
   return (
     <div className='main-container'>
-      <div style={{ color: '#fff', height: 50 }}>{ `${time}` }</div>
+      <div style={{ color: '#000', height: 50 }}>{ `${time}` }</div>
       <div className='clock-container'>
         <QRCode
           value={ time }
           renderAs='svg'
           size={ Math.min(width, height) - 50 }
-          bgColor={ '#000' }
-          fgColor={ '#FFF' }
+          bgColor={ '#FFF' }
+          fgColor={ '#000' }
         />
       </div>
     </div>
