@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import QRCode from 'qrcode.react'
-import { useInterval } from './hooks/set-interval'
+import useInterval from './hooks/set-interval'
 import moment from 'moment'
 import withSizes from 'react-sizes'
 
