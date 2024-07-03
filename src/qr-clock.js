@@ -25,7 +25,9 @@ const QRClock = ({ width, height }) => {
         />
       </div>
     </div>
-  )
+  ) => {
+    clearInterval(interval);
+  };
 }
 
 export default withSizes(sizes => sizes)(QRClock)
